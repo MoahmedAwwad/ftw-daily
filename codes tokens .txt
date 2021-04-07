@@ -1,0 +1,22 @@
+Client ID is needed for connecting with Flex API. You can find your client ID from Flex Console.
+ 6098fce0-2352-4506-ba10-5b8f0313155d
+
+Client secret is connected to client ID. You can find your client secret from Flex Console.
+ (590f47ad21122fc908dbe5a382ea3cd76e3cf6dd)
+
+
+ What is your Stripe publishable key?
+Stripe publishable API key is for generating tokens with Stripe API. Use test key (prefix pk_test_) for development. Rem
+ember to also add the Stripe secret key to Console before testing the payments.
+If you don't set the Stripe key, payments won't work in the application.
+ pk_test_51IdDvVG6EoHJXNVoeHnIRrjzw2Io1ynUElSlzme0ouQhtEEDbmgcEvGZJklz24T2c4SuR1uBtWJ2ZvQmy76mqXyY00zBBAjT7i
+
+
+
+
+What is your Mapbox access token?
+Mapbox is the default map provider of the application. Sign up for Mapbox and go the to account page. Then click Create
+access token. For more information see the: Integrating to map providers documentation.
+If you don't set the Mapbox key, the map components won't work in the application.
+ pk.eyJ1IjoibW9oYW1lZGF3d2FkIiwiYSI6ImNrbjV6cmFvZTA5ZDEycnA5dTF1bWo4bmQifQ.F1LNNFhHwuw19AI4PTKETQ
+
